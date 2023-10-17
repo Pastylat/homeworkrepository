@@ -68,8 +68,7 @@ public class AppleBagItmes {
 		
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		
-		WebElement textElements = driver.findElement(By.xpath("//button[text()='Select']")); //static Elements on the page
-		js.executeScript("window.scrollBy(0,1350)", textElements);
+		js.executeScript("window.scrollBy(0,1350)");
 		pause(2);
 		WebElement chooseSecondSelectBox = driver.findElement(By.xpath("//button[@data-autom='proceed-15inch-best']"));
 		chooseSecondSelectBox.click();
