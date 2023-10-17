@@ -60,20 +60,14 @@ public class AppleBagItmes {
 		pause(2);
 		
 // scroll down to a specific/specified element
-		
-//		Actions myAct = new Actions(driver);
-//		
-//		WebElement secondSelectBox = driver.findElement(By);
-//		myAct.sendKeys(Keys.PAGE_DOWN);
-		
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		
 		js.executeScript("window.scrollBy(0,1350)");
 		pause(2);
-		WebElement chooseSecondSelectBox = driver.findElement(By.xpath("//button[@data-autom='proceed-15inch-best']"));
+		WebElement chooseSecondSelectBox = driver.findElement(By.cssSelector("button[data-autom='proceed-15inch-best']"));
 		chooseSecondSelectBox.click();
 
-//scroll to and pick the Memory size
+//scrollTo and pick the Memory size
 		pause(3);
 		WebElement sizeMemory = driver.findElement(By.xpath("//h3[@class='rf-configuration-optiongroup-header typography-body'][.='Memory']"));
 			System.out.println(sizeMemory.getText());
