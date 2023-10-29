@@ -26,7 +26,7 @@ public class Part2Groups {
 		System.setProperty(
 				"webdriver.chrome.driver", 				//Specified any "Web-Driver"
 				"./drivers/chromedriver");
-		driver = new ChromeDriver();					// 				according to Requirement
+		driver = new ChromeDriver();					//according to Requirement
 		String webUrl = "https://www.saucedemo.com/";	
 		driver.get(webUrl);
 		driver.manage().window().maximize();

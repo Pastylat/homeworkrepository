@@ -12,16 +12,16 @@ Reviewing Busket]]>
       <![CDATA[Compare expectedMessage to actualMessage ]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-10-17T09:32:25 EDT" name="Default suite" finished-at="2023-10-17T09:33:19 EDT" duration-ms="53953">
+  <suite started-at="2023-10-28T19:45:06 EDT" name="Default suite" finished-at="2023-10-28T19:45:53 EDT" duration-ms="47077">
     <groups>
     </groups>
-    <test started-at="2023-10-17T09:32:25 EDT" name="Default test" finished-at="2023-10-17T09:33:19 EDT" duration-ms="53953">
+    <test started-at="2023-10-28T19:45:06 EDT" name="Default test" finished-at="2023-10-28T19:45:53 EDT" duration-ms="47077">
       <class name="quiz.AppleBagItmes">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:quiz.AppleBagItmes@475e586c]" started-at="2023-10-17T09:32:25 EDT" name="setUp" finished-at="2023-10-17T09:32:30 EDT" duration-ms="5496" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:quiz.AppleBagItmes@475e586c]" started-at="2023-10-28T19:45:06 EDT" name="setUp" finished-at="2023-10-28T19:45:10 EDT" duration-ms="3521" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="byingMacBookAir()[pri:0, instance:quiz.AppleBagItmes@475e586c]" started-at="2023-10-17T09:32:30 EDT" name="byingMacBookAir" finished-at="2023-10-17T09:33:14 EDT" duration-ms="43272" status="PASS">
+        <test-method signature="byingMacBookAir()[pri:0, instance:quiz.AppleBagItmes@475e586c]" started-at="2023-10-28T19:45:10 EDT" name="byingMacBookAir" finished-at="2023-10-28T19:45:48 EDT" duration-ms="38348" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Submiting choosen paramaters]]>
@@ -35,7 +35,7 @@ Reviewing Busket]]>
             </line>
           </reporter-output>
         </test-method> <!-- byingMacBookAir -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:quiz.AppleBagItmes@475e586c]" started-at="2023-10-17T09:33:14 EDT" name="tearDown" finished-at="2023-10-17T09:33:19 EDT" duration-ms="5155" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:quiz.AppleBagItmes@475e586c]" started-at="2023-10-28T19:45:48 EDT" name="tearDown" finished-at="2023-10-28T19:45:53 EDT" duration-ms="5168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

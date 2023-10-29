@@ -1,4 +1,5 @@
 
+
 package quiz;
 
 import static org.testng.Assert.*;
@@ -42,10 +43,10 @@ public class AppleBagItmes {
 
 	
 	@Test
-	public void byingMacBookAir() {
+	public void byingMacBookAir() {  
 		
 		driver.findElement(By.linkText("Mac")).click();	 // it needs tag "<a" - acronyms and match exactName in aria-label
-		pause(2);										//ul#globalnav-list div:nth-of-type(2) a[href='/mac/']  linkText("Mac"))
+		pause(2);
 
 		driver.findElement(By.cssSelector("nav#chapternav li:nth-of-type(1)")).click();
 		pause(2);
