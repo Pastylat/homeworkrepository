@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="quiz.AppleBagItmes">
+      <class name="testng_controlflow.Part2Groups">
         <methods>
-          <include name="byingMacBookAir"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
+          <include name="positiveLogInandOut"/>
+          <include name="problemUserTest"/>
         </methods>
-      </class> <!-- quiz.AppleBagItmes -->
+      </class> <!-- testng_controlflow.Part2Groups -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
