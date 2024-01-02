@@ -1,238 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[
-Starting execution of "Positive LogIn Credentials"]]>
-    </line>
-    <line>
-      <![CDATA[SetUp process has finished]]>
-    </line>
-    <line>
-      <![CDATA[Locating, Adding and Submiting "PositiveUser data"]]>
-    </line>
-    <line>
-      <![CDATA[Finished the process]]>
-    </line>
-    <line>
-      <![CDATA[skip this LogOut part IN CONSOLE, it's FALSE inside ()]]>
-    </line>
-    <line>
-      <![CDATA[Test Completed]]>
+      <![CDATA[Submiting choosen paramaters]]>
     </line>
     <line>
       <![CDATA[
-Starting execution of "problemUserTest"]]>
-    </line>
-    <line>
-      <![CDATA[Locating, Adding and Submiting "ProblemUser data"]]>
-    </line>
-    <line>
-      <![CDATA[Finished the process]]>
-    </line>
-    <line>
-      <![CDATA[Test completed, quit the Browser section]]>
-    </line>
-    <line>
-      <![CDATA[
-Starting execution of "Negative LogIn Credentials"]]>
-    </line>
-    <line>
-      <![CDATA[SetUp process has finished]]>
-    </line>
-    <line>
-      <![CDATA[Locating, Adding and Submiting "WrongUserName data"]]>
-    </line>
-    <line>
-      <![CDATA[Finished the process]]>
-    </line>
-    <line>
-      <![CDATA[Locate and Get the error message]]>
+Reviewing Busket]]>
     </line>
     <line>
       <![CDATA[Compare expectedMessage to actualMessage ]]>
-    </line>
-    <line>
-      <![CDATA[Test Completed]]>
-    </line>
-    <line>
-      <![CDATA[
-Refresh the Web Seccion...]]>
-    </line>
-    <line>
-      <![CDATA[Starting execution of "wrongPasswordTest"]]>
-    </line>
-    <line>
-      <![CDATA[Locating, Adding and Submiting "WrongPassword data"]]>
-    </line>
-    <line>
-      <![CDATA[Finished the process]]>
-    </line>
-    <line>
-      <![CDATA[Locate and Get the error message]]>
-    </line>
-    <line>
-      <![CDATA[Compare expectedMessage to actualMessage ]]>
-    </line>
-    <line>
-      <![CDATA[Test Completed]]>
-    </line>
-    <line>
-      <![CDATA[
-Refresh the Web Seccion...]]>
-    </line>
-    <line>
-      <![CDATA[Starting execution of "LockedOutUserTest"]]>
-    </line>
-    <line>
-      <![CDATA[Locating, Adding and Submiting "LockedOutUser data"]]>
-    </line>
-    <line>
-      <![CDATA[Finished the process]]>
-    </line>
-    <line>
-      <![CDATA[Locate and Get the error message]]>
-    </line>
-    <line>
-      <![CDATA[Compare expectedMessage to actualMessage ]]>
-    </line>
-    <line>
-      <![CDATA[Test Completed, quit the Browser seccion]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-11-14T22:42:44 EST" name="Default suite" finished-at="2023-11-14T22:43:43 EST" duration-ms="59239">
+  <suite started-at="2024-01-02T04:32:45 EST" name="Default suite" finished-at="2024-01-02T04:33:36 EST" duration-ms="50293">
     <groups>
-      <group name="negative">
-        <method signature="Part2Groups.LockedOutUserTest()[pri:5, instance:testng_controlflow.Part2Groups@3b2da18f]" name="LockedOutUserTest" class="testng_controlflow.Part2Groups"/>
-        <method signature="Part2Groups.wrongPasswordTest()[pri:4, instance:testng_controlflow.Part2Groups@3b2da18f]" name="wrongPasswordTest" class="testng_controlflow.Part2Groups"/>
-        <method signature="Part2Groups.wrongUsernameTest()[pri:3, instance:testng_controlflow.Part2Groups@3b2da18f]" name="wrongUsernameTest" class="testng_controlflow.Part2Groups"/>
-      </group> <!-- negative -->
-      <group name="positive">
-        <method signature="Part2Groups.positiveLogInandOut()[pri:1, instance:testng_controlflow.Part2Groups@3b2da18f]" name="positiveLogInandOut" class="testng_controlflow.Part2Groups"/>
-        <method signature="Part2Groups.problemUserTest()[pri:2, instance:testng_controlflow.Part2Groups@3b2da18f]" name="problemUserTest" class="testng_controlflow.Part2Groups"/>
-      </group> <!-- positive -->
     </groups>
-    <test started-at="2023-11-14T22:42:44 EST" name="Default test" finished-at="2023-11-14T22:43:43 EST" duration-ms="59239">
-      <class name="testng_controlflow.Part2Groups">
-        <test-method signature="positiveLogInandOut()[pri:1, instance:testng_controlflow.Part2Groups@3b2da18f]" started-at="2023-11-14T22:42:44 EST" name="positiveLogInandOut" finished-at="2023-11-14T22:42:59 EST" duration-ms="14730" status="PASS">
+    <test started-at="2024-01-02T04:32:45 EST" name="Default test" finished-at="2024-01-02T04:33:36 EST" duration-ms="50293">
+      <class name="quiz.AppleBagItmes">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:quiz.AppleBagItmes@475e586c]" started-at="2024-01-02T04:32:45 EST" name="setUp" finished-at="2024-01-02T04:32:52 EST" duration-ms="6934" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[
-Starting execution of "Positive LogIn Credentials"]]>
-            </line>
-            <line>
-              <![CDATA[SetUp process has finished]]>
-            </line>
-            <line>
-              <![CDATA[Locating, Adding and Submiting "PositiveUser data"]]>
-            </line>
-            <line>
-              <![CDATA[Finished the process]]>
-            </line>
-            <line>
-              <![CDATA[skip this LogOut part IN CONSOLE, it's FALSE inside ()]]>
-            </line>
-            <line>
-              <![CDATA[Test Completed]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- positiveLogInandOut -->
-        <test-method signature="problemUserTest()[pri:2, instance:testng_controlflow.Part2Groups@3b2da18f]" started-at="2023-11-14T22:42:59 EST" name="problemUserTest" finished-at="2023-11-14T22:43:09 EST" duration-ms="10414" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="byingMacBookAir()[pri:0, instance:quiz.AppleBagItmes@475e586c]" started-at="2024-01-02T04:32:52 EST" name="byingMacBookAir" finished-at="2024-01-02T04:33:30 EST" duration-ms="38170" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[
-Starting execution of "problemUserTest"]]>
+              <![CDATA[Submiting choosen paramaters]]>
             </line>
-            <line>
-              <![CDATA[Locating, Adding and Submiting "ProblemUser data"]]>
-            </line>
-            <line>
-              <![CDATA[Finished the process]]>
-            </line>
-            <line>
-              <![CDATA[Test completed, quit the Browser section]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- problemUserTest -->
-        <test-method signature="wrongUsernameTest()[pri:3, instance:testng_controlflow.Part2Groups@3b2da18f]" started-at="2023-11-14T22:43:09 EST" name="wrongUsernameTest" finished-at="2023-11-14T22:43:22 EST" duration-ms="13044" status="PASS">
-          <reporter-output>
             <line>
               <![CDATA[
-Starting execution of "Negative LogIn Credentials"]]>
-            </line>
-            <line>
-              <![CDATA[SetUp process has finished]]>
-            </line>
-            <line>
-              <![CDATA[Locating, Adding and Submiting "WrongUserName data"]]>
-            </line>
-            <line>
-              <![CDATA[Finished the process]]>
-            </line>
-            <line>
-              <![CDATA[Locate and Get the error message]]>
+Reviewing Busket]]>
             </line>
             <line>
               <![CDATA[Compare expectedMessage to actualMessage ]]>
             </line>
-            <line>
-              <![CDATA[Test Completed]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- wrongUsernameTest -->
-        <test-method signature="wrongPasswordTest()[pri:4, instance:testng_controlflow.Part2Groups@3b2da18f]" started-at="2023-11-14T22:43:22 EST" name="wrongPasswordTest" finished-at="2023-11-14T22:43:33 EST" duration-ms="10449" status="PASS">
+        </test-method> <!-- byingMacBookAir -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:quiz.AppleBagItmes@475e586c]" started-at="2024-01-02T04:33:30 EST" name="tearDown" finished-at="2024-01-02T04:33:36 EST" duration-ms="5156" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[
-Refresh the Web Seccion...]]>
-            </line>
-            <line>
-              <![CDATA[Starting execution of "wrongPasswordTest"]]>
-            </line>
-            <line>
-              <![CDATA[Locating, Adding and Submiting "WrongPassword data"]]>
-            </line>
-            <line>
-              <![CDATA[Finished the process]]>
-            </line>
-            <line>
-              <![CDATA[Locate and Get the error message]]>
-            </line>
-            <line>
-              <![CDATA[Compare expectedMessage to actualMessage ]]>
-            </line>
-            <line>
-              <![CDATA[Test Completed]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- wrongPasswordTest -->
-        <test-method signature="LockedOutUserTest()[pri:5, instance:testng_controlflow.Part2Groups@3b2da18f]" started-at="2023-11-14T22:43:33 EST" name="LockedOutUserTest" finished-at="2023-11-14T22:43:43 EST" duration-ms="10539" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[
-Refresh the Web Seccion...]]>
-            </line>
-            <line>
-              <![CDATA[Starting execution of "LockedOutUserTest"]]>
-            </line>
-            <line>
-              <![CDATA[Locating, Adding and Submiting "LockedOutUser data"]]>
-            </line>
-            <line>
-              <![CDATA[Finished the process]]>
-            </line>
-            <line>
-              <![CDATA[Locate and Get the error message]]>
-            </line>
-            <line>
-              <![CDATA[Compare expectedMessage to actualMessage ]]>
-            </line>
-            <line>
-              <![CDATA[Test Completed, quit the Browser seccion]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- LockedOutUserTest -->
-      </class> <!-- testng_controlflow.Part2Groups -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- quiz.AppleBagItmes -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
